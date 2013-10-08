@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ISHeaderClass.h"
+#import "WNCommanViewController.h"
+#import "WNHomeViewController.h"
 
-@interface WNViewController : UIViewController
+@interface WNViewController : WNCommanViewController<UITextFieldDelegate>
 
 @end

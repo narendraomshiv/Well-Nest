@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UINavigationBar+ISExtension.h"
+@class WNViewController;
 @interface WNAppDelegate : UIResponder <UIApplicationDelegate>
+
+
+
+@property (strong, nonatomic) WNViewController *viewController;
 
 @property (strong, nonatomic) UIWindow *window;
 
